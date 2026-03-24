@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Therapy for Women in Florida & New Jersey | Laura Abreu Therapy</title>
+  <meta name="description" content="Laura Abreu, LCSW offers virtual therapy for millennial women in Florida and New Jersey. Specializing in anxiety, breakup recovery, and maternal mental health. Book a free 15-minute consultation today." />
+  <meta name="keywords" content="online therapy women Florida, anxiety therapist Tampa, maternal mental health therapist, breakup therapy Florida, LCSW Florida, virtual therapy New Jersey, therapy for millennial women" />
+  <link rel="canonical" href="https://www.lauraabreutherapy.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.lauraabreutherapy.com/" />
+  <meta property="og:title" content="Online Therapy for Women in Florida & New Jersey | Laura Abreu Therapy" />
+  <meta property="og:description" content="Virtual therapy for millennial women navigating anxiety, heartbreak, and the journey of motherhood. Accepting Aetna, Cigna, UHC, Oscar & Oxford." />
+  <meta property="og:image" content="https://www.lauraabreutherapy.com/images/og-home.jpg" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <!-- Schema: Local Business + Medical -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["MedicalBusiness", "LocalBusiness"],
+        "@id": "https://www.lauraabreutherapy.com/#business",
+        "name": "Laura Abreu Therapy",
+        "url": "https://www.lauraabreutherapy.com",
+        "logo": "https://www.lauraabreutherapy.com/images/logo.png",
+        "image": "https://www.lauraabreutherapy.com/images/laura-headshot.png",
+        "description": "Virtual therapy for millennial women in Florida and New Jersey specializing in anxiety, relationship issues, and maternal mental health.",
+        "telephone": "+1-904-274-3278",
+        "email": "hello@lauraabreutherapy.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6421 N Florida Ave, Suite D-1020",
+          "addressLocality": "Tampa",
+          "addressRegion": "FL",
+          "postalCode": "33604",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 27.9933,
+          "longitude": -82.4600
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "$175–$200",
+        "medicalSpecialty": "Psychiatry",
+        "availableService": [
+          { "@type": "MedicalTherapy", "name": "Anxiety Therapy" },
+          { "@type": "MedicalTherapy", "name": "Relationship Counseling" },
+          { "@type": "MedicalTherapy", "name": "Maternal Mental Health" },
+          { "@type": "MedicalTherapy", "name": "Life Transitions Therapy" }
+        ],
+        "areaServed": [
+          { "@type": "State", "name": "Florida" },
+          { "@type": "State", "name": "New Jersey" },
+          { "@type": "State", "name": "Vermont" }
+        ],
+        "sameAs": []
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.lauraabreutherapy.com/#laura",
+        "name": "Laura Abreu",
+        "jobTitle": "Licensed Clinical Social Worker (LCSW)",
+        "worksFor": { "@id": "https://www.lauraabreutherapy.com/#business" },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Hunter College Silberman School of Social Work"
+        },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "LCSW",
+          "recognizedBy": { "@type": "Organization", "name": "State of Florida" }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.lauraabreutherapy.com/#website",
+        "url": "https://www.lauraabreutherapy.com",
+        "name": "Laura Abreu Therapy",
+        "publisher": { "@id": "https://www.lauraabreutherapy.com/#business" }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ======= HOME-SPECIFIC STYLES ======= */
+
+    /* HERO */
+    .hero {
+      min-height: 100dvh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding-top: 0;
+    }
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10rem 4rem 6rem 2rem;
+      padding-left: max(2rem, calc((100vw - 1320px) / 2 + 2rem));
+    }
+    .hero-headline {
+      font-size: clamp(3rem, 5.5vw, 5.25rem);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      color: var(--espresso);
+      margin-bottom: 1.75rem;
+    }
+    .hero-headline em {
+      font-style: italic;
+      color: var(--terra);
+    }
+    .hero-sub {
+      font-size: 1.125rem;
+      color: var(--warm-mid);
+      max-width: 46ch;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    .hero-cta-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(42,32,24,0.08);
+    }
+    .hero-stars { color: var(--terra); font-size: 0.875rem; letter-spacing: 0.1em; }
+    .hero-trust-text { font-size: 0.8125rem; color: var(--warm-mid); }
+    .hero-trust-text strong { color: var(--espresso); }
+
+    .hero-right {
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-right::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(122,158,142,0.15) 0%, rgba(194,113,74,0.08) 100%);
+      z-index: 1;
+    }
+    .hero-bg-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .hero-photo-card {
+      position: absolute;
+      bottom: 3rem;
+      left: -2rem;
+      z-index: 2;
+    }
+    .hero-photo-card .card-shell {
+      background: rgba(247,243,238,0.88);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(122,158,142,0.25);
+    }
+    .hero-photo-inner {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      white-space: nowrap;
+    }
+    .hero-photo-avatar {
+      width: 3rem; height: 3rem;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--sage-light);
+    }
+    .hero-photo-name {
+      font-family: var(--font-serif);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: var(--espresso);
+    }
+    .hero-photo-cred {
+      font-size: 0.75rem;
+      color: var(--warm-mid);
+      margin-top: 0.1rem;
+    }
+    .hero-badge {
+      position: absolute;
+      top: 2.5rem;
+      right: 2rem;
+      z-index: 2;
+      background: var(--terra);
+      color: var(--white);
+      border-radius: var(--radius-full);
+      padding: 0.6rem 1.1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 20px rgba(194,113,74,0.35);
+    }
+
+    /* SPECIALTIES SECTION */
+    .specialties-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .specialty-card {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.5s var(--transition);
+    }
+    .specialty-card:hover { transform: translateY(-6px); }
+    .specialty-card .card-inner { padding: 2.25rem; min-height: 260px; display: flex; flex-direction: column; justify-content: space-between; }
+    .specialty-icon {
+      width: 3rem; height: 3rem;
+      border-radius: var(--radius-sm);
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 1.25rem;
+      font-size: 1.375rem;
+    }
+    .specialty-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+      color: var(--espresso);
+    }
+    .specialty-card p { font-size: 0.9rem; max-width: none; }
+    .specialty-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--terra);
+      margin-top: 1.5rem;
+      transition: gap 0.3s var(--transition);
+    }
+    .specialty-link:hover { gap: 0.625rem; }
+    .specialty-card.accent-sage .card-inner { background: rgba(122,158,142,0.07); }
+    .specialty-card.accent-terra .card-inner { background: rgba(194,113,74,0.06); }
+    .specialty-card.accent-cream .card-inner { background: var(--cream); }
+
+    /* ABOUT STRIP */
+    .about-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .about-img-wrap {
+      position: relative;
+    }
+    .about-img-shell {
+      background: rgba(122,158,142,0.10);
+      border: 1px solid rgba(122,158,142,0.18);
+      border-radius: var(--radius-lg);
+      padding: 0.5rem;
+      transform: rotate(-1.5deg);
+      transition: transform 0.5s var(--transition);
+    }
+    .about-img-shell:hover { transform: rotate(0deg); }
+    .about-img-inner {
+      border-radius: calc(var(--radius-lg) - 0.5rem);
+      overflow: hidden;
+      aspect-ratio: 4 / 5;
+    }
+    .about-img-inner img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+    .about-years-badge {
+      position: absolute;
+      bottom: -1.5rem;
+      right: -1.5rem;
+      background: var(--espresso);
+      color: var(--cream);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      text-align: center;
+      box-shadow: var(--shadow-soft);
+    }
+    .about-years-badge .number {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      line-height: 1;
+      color: var(--terra-light);
+    }
+    .about-years-badge .label {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(247,243,238,0.55);
+      margin-top: 0.25rem;
+    }
+    .about-text { padding-right: 1rem; }
+    .about-pillars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .pillar {
+      background: rgba(122,158,142,0.06);
+      border: 1px solid rgba(122,158,142,0.15);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+    }
+    .pillar-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--sage-deep);
+      margin-bottom: 0.25rem;
+    }
+    .pillar-val {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      color: var(--espresso);
+    }
+
+    /* PROCESS */
+    .process-section { background: var(--cream-dark); }
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .process-card .card-inner {
+      padding: 2.5rem 2rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .process-num {
+      width: 3.5rem; height: 3.5rem;
+      border-radius: 50%;
+      background: var(--espresso);
+      color: var(--cream);
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 1.5rem;
+      flex-shrink: 0;
+    }
+    .process-card h3 { font-size: 1.125rem; margin-bottom: 0.75rem; }
+    .process-card p { font-size: 0.9rem; }
+
+    /* STATS */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      background: rgba(42,32,24,0.06);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin: 4rem 0;
+    }
+    .stat-cell {
+      background: var(--white);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-serif);
+      font-size: 3rem;
+      font-weight: 500;
+      color: var(--terra);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.8125rem;
+      color: var(--warm-mid);
+      margin-top: 0.5rem;
+      letter-spacing: 0.04em;
+    }
+
+    /* INSURANCE */
+    .insurance-section { background: var(--espresso); padding: 5rem 0; }
+    .insurance-section h2 { color: var(--cream); }
+    .insurance-section p { color: rgba(247,243,238,0.6); }
+    .insurance-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 2rem;
+    }
+    .ins-pill {
+      background: rgba(247,243,238,0.08);
+      border: 1px solid rgba(247,243,238,0.14);
+      border-radius: var(--radius-full);
+      padding: 0.6rem 1.4rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--cream);
+      transition: all 0.3s var(--transition);
+    }
+    .ins-pill:hover { background: rgba(194,113,74,0.3); border-color: var(--terra); }
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .pricing-card {
+      background: rgba(247,243,238,0.05);
+      border: 1px solid rgba(247,243,238,0.10);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+    }
+    .pricing-label {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--sage-light);
+      margin-bottom: 1rem;
+    }
+    .pricing-amount {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      color: var(--cream);
+      line-height: 1;
+    }
+    .pricing-duration {
+      font-size: 0.875rem;
+      color: rgba(247,243,238,0.45);
+      margin-top: 0.25rem;
+    }
+
+    /* TESTIMONIAL */
+    .testimonial-section { background: rgba(122,158,142,0.06); }
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .testimonial-card .card-inner { padding: 2rem; }
+    .quote-mark {
+      font-family: var(--font-serif);
+      font-size: 4rem;
+      line-height: 0.5;
+      color: var(--terra);
+      opacity: 0.35;
+      margin-bottom: 1rem;
+    }
+    .testimonial-text {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--espresso);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .testimonial-author {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--warm-mid);
+      letter-spacing: 0.04em;
+    }
+    .testimonial-stars { color: var(--terra); font-size: 0.75rem; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+
+    /* CTA BANNER */
+    .cta-banner {
+      background: var(--terra);
+      padding: 6rem 0;
+    }
+    .cta-banner h2 { color: var(--white); }
+    .cta-banner p { color: rgba(253,250,247,0.8); }
+    .btn-cta-white {
+      background: var(--white);
+      color: var(--terra);
+      font-weight: 700;
+    }
+    .btn-cta-white:hover { background: var(--cream); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+    /* RESPONSIVE OVERRIDES */
+    @media (max-width: 1024px) {
+      .specialties-grid { grid-template-columns: 1fr 1fr; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
+      .testimonial-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 8rem 1.25rem 3rem; }
+      .hero-right { height: 55vw; min-height: 280px; }
+      .hero-photo-card { left: 1rem; bottom: 1rem; }
+      .about-strip { grid-template-columns: 1fr; gap: 3rem; }
+      .about-img-shell { transform: none; }
+      .about-years-badge { right: 0; bottom: -1rem; }
+      .about-pillars { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: 1fr 1fr; }
+      .specialties-grid { grid-template-columns: 1fr; }
+      .pricing-cards { grid-template-columns: 1fr; }
+      .testimonial-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="index.html" class="nav-logo">Laura Abreu Therapy</a>
+      <ul class="nav-links">
+        <li><a href="pages/about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="#">Specialties</a>
+          <div class="nav-dropdown">
+            <a href="pages/anxiety.html">Anxiety Therapy</a>
+            <a href="pages/relationship-issues.html">Relationship Issues</a>
+            <a href="pages/maternal-mental-health.html">Maternal Mental Health</a>
+            <a href="pages/life-transitions.html">Life Transitions</a>
+          </div>
+        </li>
+        <li><a href="pages/faq.html">FAQ</a></li>
+        <li><a href="pages/fees.html">Fees & Insurance</a></li>
+        <li><a href="pages/blog.html">Blog</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+      <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-nav">
+        Book Free Call
+        <span class="btn-icon">→</span>
+      </a>
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE OVERLAY -->
+  <div class="mobile-overlay" role="dialog" aria-modal="true">
+    <a href="pages/about.html">About</a>
+    <a href="pages/anxiety.html">Anxiety Therapy</a>
+    <a href="pages/relationship-issues.html">Relationship Issues</a>
+    <a href="pages/maternal-mental-health.html">Maternal Mental Health</a>
+    <a href="pages/fees.html">Fees & Insurance</a>
+    <a href="pages/faq.html">FAQ</a>
+    <a href="pages/blog.html">Blog</a>
+    <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" class="mobile-cta">Book Free Call →</a>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-left">
+        <span class="eyebrow reveal">Licensed LCSW — Florida &amp; New Jersey</span>
+        <h1 class="hero-headline reveal reveal-delay-1">
+          You deserve to feel <em>at peace</em> with yourself again.
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          Virtual therapy for millennial women navigating anxiety, heartbreak, and the beautiful, messy journey of motherhood.
+        </p>
+        <div class="hero-cta-row reveal reveal-delay-3">
+          <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-primary">
+            Book Free 15-Min Call
+            <span class="btn-icon">→</span>
+          </a>
+          <a href="pages/about.html" class="btn btn-outline">Meet Laura</a>
+        </div>
+        <div class="hero-trust reveal reveal-delay-4">
+          <span class="hero-stars" aria-label="5 star rating">★★★★★</span>
+          <p class="hero-trust-text"><strong>5-star rated</strong> on Google · Accepting new clients now</p>
+        </div>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <!-- Background: warm nature/calm woman image via Unsplash -->
+        <img
+          src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?w=1200&q=80&fit=crop&auto=format"
+          alt="Calm woman in peaceful setting"
+          class="hero-bg-img"
+          loading="eager"
+          width="800" height="1000"
+        />
+        <div class="hero-badge">Now Accepting Clients</div>
+        <div class="hero-photo-card">
+          <div class="card-shell">
+            <div class="hero-photo-inner">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/62da63ba44adcc1755252026/044a7fbd-fd3e-4822-a190-a4355f057c38/laura+abreu+women%27s+therapy+near+me"
+                alt="Laura Abreu, LCSW"
+                class="hero-photo-avatar"
+                width="48" height="48"
+              />
+              <div>
+                <div class="hero-photo-name">Laura Abreu, LCSW</div>
+                <div class="hero-photo-cred">Licensed Clinical Social Worker</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-item"><span class="marquee-dot"></span>Anxiety Therapy</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Breakup Recovery</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Maternal Mental Health</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Life Transitions</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Self-Esteem</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Postpartum Support</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Fertility Anxiety</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Online Therapy Florida</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Virtual Therapy NJ</span>
+        <!-- duplicate for seamless loop -->
+        <span class="marquee-item"><span class="marquee-dot"></span>Anxiety Therapy</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Breakup Recovery</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Maternal Mental Health</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Life Transitions</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Self-Esteem</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Postpartum Support</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Fertility Anxiety</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Online Therapy Florida</span>
+        <span class="marquee-item"><span class="marquee-dot"></span>Virtual Therapy NJ</span>
+      </div>
+    </div>
+
+    <!-- ===== SPECIALTIES ===== -->
+    <section aria-labelledby="specialties-heading">
+      <div class="container">
+        <span class="eyebrow reveal">Areas of Focus</span>
+        <h2 id="specialties-heading" class="reveal reveal-delay-1">
+          Healing through life's<br /><em>hardest chapters</em>
+        </h2>
+        <p class="reveal reveal-delay-2" style="margin: 1rem 0 3rem;">
+          Whether you're rebuilding after heartbreak, navigating the overwhelm of new motherhood, or caught in the spiral of anxiety — you've found the right space.
+        </p>
+        <div class="specialties-grid">
+
+          <div class="card-shell specialty-card accent-sage reveal">
+            <div class="card-inner">
+              <div>
+                <div class="specialty-icon bg-sage-soft">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="color:var(--sage-deep)" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v4l3 3"/></svg>
+                </div>
+                <h3>Anxiety Therapy</h3>
+                <p>Break free from the cycle of worry, self-doubt, and overwhelm. Learn grounding tools rooted in CBT that actually work in everyday life.</p>
+              </div>
+              <a href="pages/anxiety.html" class="specialty-link">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="card-shell specialty-card accent-terra reveal reveal-delay-1">
+            <div class="card-inner">
+              <div>
+                <div class="specialty-icon bg-terra-soft">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="color:var(--terra)" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <h3>Relationship Issues</h3>
+                <p>Heal from breakups, untangle unhealthy patterns, and build the confidence to create relationships that feel safe and fulfilling.</p>
+              </div>
+              <a href="pages/relationship-issues.html" class="specialty-link">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="card-shell specialty-card accent-cream reveal reveal-delay-2">
+            <div class="card-inner">
+              <div>
+                <div class="specialty-icon" style="background:rgba(42,32,24,0.06)">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="color:var(--espresso)" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>
+                </div>
+                <h3>Maternal Mental Health</h3>
+                <p>From trying to conceive through postpartum, you deserve support at every stage. You are not failing — you are human.</p>
+              </div>
+              <a href="pages/maternal-mental-health.html" class="specialty-link">Learn more →</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- STATS ROW -->
+        <div class="stats-row reveal" style="margin-top:4rem">
+          <div class="stat-cell">
+            <div class="stat-num"><span data-count="9" data-suffix="+">9+</span></div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num"><span data-count="30" data-suffix="+">30+</span></div>
+            <div class="stat-label">Countries Traveled</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num"><span data-count="3">3</span></div>
+            <div class="stat-label">State Licenses</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num"><span data-count="5">5</span></div>
+            <div class="stat-label">Insurance Networks</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT STRIP ===== -->
+    <section style="background:var(--cream-dark)" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-strip">
+          <div class="about-img-wrap reveal">
+            <div class="about-img-shell">
+              <div class="about-img-inner">
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/62da63ba44adcc1755252026/044a7fbd-fd3e-4822-a190-a4355f057c38/laura+abreu+women%27s+therapy+near+me"
+                  alt="Laura Abreu, LCSW — Licensed therapist for women in Florida"
+                  width="480" height="600"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="about-years-badge">
+              <div class="number">9+</div>
+              <div class="label">Years Helping<br />Women Heal</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <span class="eyebrow reveal">Meet Your Therapist</span>
+            <h2 id="about-heading" class="reveal reveal-delay-1">
+              Hey, I'm Laura — <em>and I get it.</em>
+            </h2>
+            <p class="reveal reveal-delay-2" style="margin:1.25rem 0;">
+              Since 2016, I've walked alongside women through their most tender, complicated, and transformative moments. I know how exhausting it is to silently carry the weight of anxiety, grief, and self-doubt.
+            </p>
+            <p class="reveal reveal-delay-3">
+              I'm a BIPOC therapist trained in CBT and Trauma-Focused CBT. I bring cultural sensitivity, genuine warmth, and evidence-based tools to every session — always in a space free from judgment.
+            </p>
+            <div class="about-pillars reveal reveal-delay-4">
+              <div class="pillar">
+                <div class="pillar-label">Education</div>
+                <div class="pillar-val">Hunter College, MSW</div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-label">Approach</div>
+                <div class="pillar-val">CBT + Trauma-Informed</div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-label">Licensed In</div>
+                <div class="pillar-val">FL · NJ · VT</div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-label">Certifying In</div>
+                <div class="pillar-val">Perinatal Mental Health</div>
+              </div>
+            </div>
+            <div style="margin-top:2rem" class="reveal">
+              <a href="pages/about.html" class="btn btn-primary">Read Full Bio <span class="btn-icon">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="process-section" aria-labelledby="process-heading">
+      <div class="container">
+        <div style="text-align:center;max-width:600px;margin:0 auto 1rem;">
+          <span class="eyebrow reveal">Simple to Start</span>
+          <h2 id="process-heading" class="reveal reveal-delay-1">
+            Three steps to finding <em>peace</em>
+          </h2>
+          <p class="reveal reveal-delay-2" style="margin-top:1rem">
+            Starting therapy shouldn't feel overwhelming. Here's exactly what to expect.
+          </p>
+        </div>
+        <div class="process-grid">
+          <div class="card-shell process-card reveal">
+            <div class="card-inner">
+              <div class="process-num">1</div>
+              <h3>Book Your Free Call</h3>
+              <p>Select "Book Now" and fill out a brief intake form. You'll receive a link for a free 15-minute consultation so we can see if we're a good fit.</p>
+            </div>
+          </div>
+          <div class="card-shell process-card reveal reveal-delay-1">
+            <div class="card-inner">
+              <div class="process-num">2</div>
+              <h3>Your First Session</h3>
+              <p>We meet virtually for a 60-minute session to explore your story — your history, current challenges, and what you're hoping to heal and build.</p>
+            </div>
+          </div>
+          <div class="card-shell process-card reveal reveal-delay-2">
+            <div class="card-inner">
+              <div class="process-num">3</div>
+              <h3>We Build Your Plan</h3>
+              <p>Together we develop a personalized treatment plan. Weekly or biweekly sessions give you the space, tools, and support to genuinely transform.</p>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:3rem" class="reveal">
+          <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-primary">
+            Start with a Free Call
+            <span class="btn-icon">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSURANCE & FEES ===== -->
+    <section class="insurance-section" aria-labelledby="insurance-heading">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start">
+          <div>
+            <span class="eyebrow reveal" style="color:var(--sage-light);background:rgba(168,196,184,0.12);border-color:rgba(168,196,184,0.2)">Insurance Accepted</span>
+            <h2 id="insurance-heading" class="reveal reveal-delay-1">
+              Making therapy <em>accessible</em>
+            </h2>
+            <p class="reveal reveal-delay-2" style="margin-top:1rem">
+              I believe cost shouldn't stand between you and healing. I accept most major insurance plans and provide superbills for out-of-network reimbursement.
+            </p>
+            <div class="insurance-grid reveal reveal-delay-3">
+              <span class="ins-pill">Aetna</span>
+              <span class="ins-pill">Cigna</span>
+              <span class="ins-pill">United Healthcare</span>
+              <span class="ins-pill">Oscar</span>
+              <span class="ins-pill">Oxford</span>
+              <span class="ins-pill">Superbill (OON)</span>
+            </div>
+            <p style="margin-top:1.5rem;font-size:0.875rem;color:rgba(247,243,238,0.45)" class="reveal">
+              Not sure about your coverage? Contact us and we'll help you figure it out before your first appointment.
+            </p>
+          </div>
+          <div>
+            <span class="eyebrow reveal" style="color:var(--terra-light);background:rgba(194,113,74,0.12);border-color:rgba(194,113,74,0.2)">Self-Pay Rates</span>
+            <div class="pricing-cards reveal reveal-delay-1">
+              <div class="pricing-card">
+                <div class="pricing-label">First Session</div>
+                <div class="pricing-amount">$200</div>
+                <div class="pricing-duration">60 minutes</div>
+              </div>
+              <div class="pricing-card">
+                <div class="pricing-label">Regular Session</div>
+                <div class="pricing-amount">$175</div>
+                <div class="pricing-duration">53 minutes</div>
+              </div>
+            </div>
+            <div style="margin-top:1.5rem" class="reveal reveal-delay-2">
+              <a href="pages/fees.html" class="btn btn-outline" style="border-color:rgba(247,243,238,0.2);color:var(--cream)">View Full Fees & FAQ →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonial-section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <span class="eyebrow reveal">Client Stories</span>
+        <h2 id="testimonials-heading" class="reveal reveal-delay-1">
+          Real words from real <em>healing</em>
+        </h2>
+        <p class="reveal reveal-delay-2" style="margin:1rem 0 3rem">
+          These are the words of women who chose to take the first step.
+        </p>
+        <div class="testimonial-grid">
+
+          <div class="card-shell testimonial-card reveal">
+            <div class="card-inner">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">Laura creates the safest space I've ever experienced in therapy. She helped me understand why I kept falling into the same relationship patterns — and actually change them.</p>
+              <div class="testimonial-author">— Verified Google Review</div>
+            </div>
+          </div>
+
+          <div class="card-shell testimonial-card reveal reveal-delay-1">
+            <div class="card-inner">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">I was struggling so much postpartum and felt completely alone. Laura understood exactly what I was going through and helped me feel like myself again.</p>
+              <div class="testimonial-author">— Verified Google Review</div>
+            </div>
+          </div>
+
+          <div class="card-shell testimonial-card reveal reveal-delay-2">
+            <div class="card-inner">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="quote-mark">"</div>
+              <p class="testimonial-text">Laura is honest, warm, and incredibly skilled. Within a few months my anxiety went from debilitating to manageable. I finally feel like I'm in the driver's seat of my life.</p>
+              <div class="testimonial-author">— Verified Google Review</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="container" style="text-align:center;max-width:680px;margin:0 auto">
+        <span class="eyebrow reveal" style="color:rgba(253,250,247,0.8);background:rgba(253,250,247,0.12);border-color:rgba(253,250,247,0.2)">You've Come This Far</span>
+        <h2 id="cta-heading" class="reveal reveal-delay-1" style="color:var(--white)">
+          The next step is <em>one free call.</em>
+        </h2>
+        <p class="reveal reveal-delay-2" style="margin:1.25rem auto 2.5rem;max-width:50ch">
+          No pressure, no commitment. Just 15 minutes to talk about where you are and where you want to be. I would be honored to walk alongside you.
+        </p>
+        <div class="reveal reveal-delay-3">
+          <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-cta-white">
+            Book Free Consultation
+            <span class="btn-icon" style="background:rgba(194,113,74,0.15)">→</span>
+          </a>
+        </div>
+        <p class="reveal reveal-delay-4" style="margin-top:1.5rem;font-size:0.8125rem;color:rgba(253,250,247,0.55)">
+          Already a client? <a href="https://lauraabreutherapy.clientsecure.me" style="color:rgba(253,250,247,0.8);text-decoration:underline">Schedule your next session →</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">Laura Abreu Therapy</div>
+          <p class="footer-tagline">Virtual therapy for millennial women finding peace in Florida, New Jersey, and Vermont.</p>
+          <p style="margin-top:1.25rem">
+            <a href="tel:+19042743278">(904) 274-3278</a><br />
+            <a href="mailto:hello@lauraabreutherapy.com">hello@lauraabreutherapy.com</a>
+          </p>
+          <p style="margin-top:0.75rem;font-size:0.8125rem">
+            6421 N Florida Ave, Suite D-1020<br />Tampa, FL 33604
+          </p>
+        </div>
+        <div>
+          <h4>Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="pages/anxiety.html">Anxiety Therapy</a></li>
+            <li><a href="pages/relationship-issues.html">Relationship Issues</a></li>
+            <li><a href="pages/maternal-mental-health.html">Maternal Mental Health</a></li>
+            <li><a href="pages/life-transitions.html">Life Transitions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Helpful Links</h4>
+          <ul class="footer-links">
+            <li><a href="pages/about.html">About Laura</a></li>
+            <li><a href="pages/fees.html">Fees & Insurance</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Licensed In</h4>
+          <ul class="footer-links">
+            <li><a href="pages/florida.html">Florida (Online)</a></li>
+            <li><a href="pages/new-jersey.html">New Jersey (Online)</a></li>
+            <li><a href="pages/florida.html">Tampa</a></li>
+            <li><a href="pages/florida.html">Miami</a></li>
+            <li><a href="pages/florida.html">Orlando</a></li>
+            <li><a href="pages/florida.html">Jacksonville</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Laura Abreu Therapy. All rights reserved.</span>
+        <span>
+          <a href="pages/privacy.html" style="margin-right:1.5rem">Privacy Policy</a>
+          <a href="pages/terms.html">Terms of Use</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

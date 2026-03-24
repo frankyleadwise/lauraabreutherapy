@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Laura Abreu, LCSW | Women's Therapist in Florida & New Jersey</title>
+  <meta name="description" content="Meet Laura Abreu, Licensed Clinical Social Worker (LCSW) and women's therapist in Florida and New Jersey. Trained in CBT, trauma-informed care, and perinatal mental health. Book a free consultation." />
+  <link rel="canonical" href="https://www.lauraabreutherapy.com/pages/about.html" />
+  <meta property="og:title" content="About Laura Abreu, LCSW | Women's Therapist in Florida" />
+  <meta property="og:description" content="BIPOC therapist trained in CBT and trauma-informed care. Specializing in anxiety, relationship issues, and maternal mental health for women in FL and NJ." />
+  <meta property="og:url" content="https://www.lauraabreutherapy.com/pages/about.html" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Laura Abreu",
+    "jobTitle": "Licensed Clinical Social Worker",
+    "description": "LCSW specializing in anxiety, relationship issues, and maternal mental health for women in Florida and New Jersey.",
+    "url": "https://www.lauraabreutherapy.com/pages/about.html",
+    "telephone": "+1-904-274-3278",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hunter College Silberman School of Social Work"
+    },
+    "knowsAbout": ["Anxiety Therapy", "CBT", "Trauma-Focused CBT", "Maternal Mental Health", "Relationship Counseling"],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "LCSW — Florida" },
+      { "@type": "EducationalOccupationalCredential", "name": "LCSW — New Jersey" },
+      { "@type": "EducationalOccupationalCredential", "name": "LCSW — Vermont" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    /* PAGE HERO */
+    .page-hero {
+      padding: 11rem 0 6rem;
+      background: var(--cream-dark);
+    }
+    .page-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .page-hero h1 { margin-bottom: 1.25rem; }
+    .page-hero p { margin-bottom: 1.25rem; }
+
+    .laura-img-shell {
+      background: rgba(122,158,142,0.10);
+      border: 1px solid rgba(122,158,142,0.18);
+      border-radius: var(--radius-lg);
+      padding: 0.5rem;
+      transform: rotate(1.2deg);
+      transition: transform 0.5s var(--transition);
+    }
+    .laura-img-shell:hover { transform: rotate(0deg); }
+    .laura-img-inner {
+      border-radius: calc(var(--radius-lg) - 0.5rem);
+      overflow: hidden;
+      aspect-ratio: 3/4;
+    }
+    .laura-img-inner img { width:100%;height:100%;object-fit:cover;object-position:top; }
+
+    /* CREDENTIALS */
+    .credentials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 3rem 0;
+    }
+    .cred-card .card-inner {
+      padding: 1.75rem;
+      text-align: center;
+    }
+    .cred-icon {
+      width:3rem;height:3rem;
+      border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      margin:0 auto 1rem;
+      background:var(--cream-dark);
+    }
+    .cred-card h3 { font-size:1rem;margin-bottom:0.4rem; }
+    .cred-card p  { font-size:0.85rem;max-width:none; }
+
+    /* APPROACH */
+    .approach-section { background:var(--cream-dark); }
+    .approach-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+    .approach-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      padding: 1.25rem;
+      background: var(--white);
+      border: 1px solid rgba(122,158,142,0.12);
+      border-radius: var(--radius-md);
+    }
+    .approach-dot {
+      width:0.625rem;height:0.625rem;
+      border-radius:50%;
+      background:var(--terra);
+      flex-shrink:0;
+      margin-top:0.45rem;
+    }
+    .approach-item p { font-size:0.9rem;max-width:none;margin:0; }
+
+    /* PERSONAL */
+    .personal-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .fun-facts {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .fun-fact-item {
+      display:flex;gap:0.875rem;align-items:flex-start;
+      padding:1rem 1.25rem;
+      background:rgba(122,158,142,0.07);
+      border-left:3px solid var(--sage);
+      border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+    }
+    .fun-fact-label {
+      font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--sage-deep);
+    }
+    .fun-fact-val { font-size:0.9rem;color:var(--espresso);margin-top:0.1rem; }
+
+    @media (max-width:768px) {
+      .page-hero-grid { grid-template-columns:1fr;gap:2.5rem; }
+      .credentials-grid { grid-template-columns:1fr; }
+      .approach-list { grid-template-columns:1fr; }
+      .personal-grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="../index.html" class="nav-logo">Laura Abreu Therapy</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="#">Specialties</a>
+          <div class="nav-dropdown">
+            <a href="anxiety.html">Anxiety Therapy</a>
+            <a href="relationship-issues.html">Relationship Issues</a>
+            <a href="maternal-mental-health.html">Maternal Mental Health</a>
+            <a href="life-transitions.html">Life Transitions</a>
+          </div>
+        </li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="fees.html">Fees & Insurance</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-nav">
+        Book Free Call <span class="btn-icon">→</span>
+      </a>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" role="dialog" aria-modal="true">
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="anxiety.html">Anxiety Therapy</a>
+    <a href="relationship-issues.html">Relationship Issues</a>
+    <a href="maternal-mental-health.html">Maternal Mental Health</a>
+    <a href="fees.html">Fees & Insurance</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" class="mobile-cta">Book Free Call →</a>
+  </div>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="about-hero-heading">
+      <div class="container">
+        <div class="page-hero-grid">
+          <div>
+            <span class="eyebrow reveal">Your Therapist</span>
+            <h1 id="about-hero-heading" class="reveal reveal-delay-1">
+              A little about <em>me</em>
+            </h1>
+            <p class="reveal reveal-delay-2">
+              I'm Laura Abreu — Licensed Clinical Social Worker, world traveler, former actress, and someone who deeply believes in the power of healing from the inside out.
+            </p>
+            <p class="reveal reveal-delay-3">
+              Since 2016, I've had the honor of working with women navigating some of life's most tender and complex moments. Breakups that shook their sense of self. The overwhelming anxiety of new motherhood. The silent grief of fertility struggles. I've been in the room for all of it — and I wouldn't trade it for anything.
+            </p>
+            <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap" class="reveal reveal-delay-4">
+              <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-primary">Book Free Call <span class="btn-icon">→</span></a>
+              <a href="contact.html" class="btn btn-outline">Ask a Question</a>
+            </div>
+          </div>
+          <div class="reveal reveal-delay-1">
+            <div class="laura-img-shell">
+              <div class="laura-img-inner">
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/62da63ba44adcc1755252026/044a7fbd-fd3e-4822-a190-a4355f057c38/laura+abreu+women%27s+therapy+near+me"
+                  alt="Laura Abreu, LCSW — Women's therapist in Tampa, Florida"
+                  width="480" height="640"
+                  loading="eager"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section aria-labelledby="credentials-heading">
+      <div class="container">
+        <span class="eyebrow reveal">Education &amp; Training</span>
+        <h2 id="credentials-heading" class="reveal reveal-delay-1">
+          Qualified, experienced, <em>and here for you</em>
+        </h2>
+        <div class="credentials-grid">
+
+          <div class="card-shell cred-card reveal">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--sage-deep)" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <h3>Hunter College, CUNY</h3>
+              <p>Master of Social Work (MSW) — Clinical Practice with Individuals, Families &amp; Groups. Completed an accelerated 16-month program.</p>
+            </div>
+          </div>
+
+          <div class="card-shell cred-card reveal reveal-delay-1">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--terra)" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <h3>Licensed in 3 States</h3>
+              <p>Independently licensed as an LCSW in Florida, New Jersey, and Vermont — enabling telehealth therapy across state lines.</p>
+            </div>
+          </div>
+
+          <div class="card-shell cred-card reveal reveal-delay-2">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--espresso)" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>
+              </div>
+              <h3>CBT + TF-CBT Trained</h3>
+              <p>Trained in Cognitive Behavioral Therapy and Trauma-Focused CBT. Currently in training for Perinatal Mental Health Certification (PMH-C).</p>
+            </div>
+          </div>
+
+          <div class="card-shell cred-card reveal">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--sage-deep)" aria-hidden="true"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+              </div>
+              <h3>Baruch College, CUNY</h3>
+              <p>Bachelor of Science in Psychology — Full Macaulay Honors scholarship. Worked in social psychology research laboratory.</p>
+            </div>
+          </div>
+
+          <div class="card-shell cred-card reveal reveal-delay-1">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--terra)" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h3>NYC Clinical Experience</h3>
+              <p>Graduate training in a school-based clinic and undergraduate counseling center in New York City. Post-grad experience in community mental health and the NYC charter school system.</p>
+            </div>
+          </div>
+
+          <div class="card-shell cred-card reveal reveal-delay-2">
+            <div class="card-inner">
+              <div class="cred-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color:var(--espresso)" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              </div>
+              <h3>Cultural Sensitivity</h3>
+              <p>As a BIPOC therapist, Laura practices from an anti-oppressive, social justice orientation — with deep understanding of immigrant family dynamics and cultural identity.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="approach-section" aria-labelledby="approach-heading">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start">
+          <div>
+            <span class="eyebrow reveal">My Approach</span>
+            <h2 id="approach-heading" class="reveal reveal-delay-1">
+              Therapy that's honest, tailored, <em>and trauma-informed</em>
+            </h2>
+            <p class="reveal reveal-delay-2" style="margin-top:1rem">
+              I don't believe in one-size-fits-all therapy. I use a blend of evidence-based practices always tailored to your unique story, history, and goals.
+            </p>
+            <p class="reveal reveal-delay-3" style="margin-top:0.75rem">
+              My role is to create a safe, non-judgmental space where you can finally exhale, process your emotions, and begin to heal. Together, we explore the roots of your anxiety, rewrite unhelpful patterns, and build the tools you need to feel grounded and resilient.
+            </p>
+            <div style="margin-top:2rem" class="reveal reveal-delay-4">
+              <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-primary">Start Your Journey <span class="btn-icon">→</span></a>
+            </div>
+          </div>
+          <div>
+            <div class="approach-list">
+              <div class="approach-item reveal">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Cognitive Behavioral Therapy (CBT)</strong> — Identifying and reshaping thought patterns that fuel anxiety and self-doubt.</p>
+                </div>
+              </div>
+              <div class="approach-item reveal reveal-delay-1">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Trauma-Focused CBT (TF-CBT)</strong> — Specialized approach for processing and healing past trauma at your pace.</p>
+                </div>
+              </div>
+              <div class="approach-item reveal reveal-delay-2">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Anti-Oppressive Practice</strong> — Therapy that acknowledges the real-world impact of systemic oppression on mental health.</p>
+                </div>
+              </div>
+              <div class="approach-item reveal reveal-delay-3">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Perinatal Mental Health (in training)</strong> — Specialized support for the emotional journey of conception, pregnancy, and postpartum.</p>
+                </div>
+              </div>
+              <div class="approach-item reveal">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Clear Treatment Plans</strong> — After 2–3 weeks, we'll build a structured plan together so you always know where we're headed.</p>
+                </div>
+              </div>
+              <div class="approach-item reveal reveal-delay-1">
+                <span class="approach-dot"></span>
+                <div>
+                  <p><strong>Honest Communication</strong> — I'll always be clear and direct with you throughout each step of your healing process.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAL SECTION -->
+    <section aria-labelledby="personal-heading">
+      <div class="container">
+        <div class="personal-grid">
+          <div>
+            <span class="eyebrow reveal">Beyond the Office</span>
+            <h2 id="personal-heading" class="reveal reveal-delay-1">
+              A little more about the <em>human behind the LCSW</em>
+            </h2>
+            <p class="reveal reveal-delay-2" style="margin-top:1rem">
+              Before dreaming of becoming a therapist, I was an actress — I grew up in the performing arts and attended the renowned Fiorello H. LaGuardia High School for Performing Arts in New York City. That background shapes how I connect with clients today: I believe storytelling, listening deeply, and creating space for authentic expression are at the heart of healing.
+            </p>
+            <p class="reveal reveal-delay-3" style="margin-top:0.75rem">
+              I've traveled to over 30 countries and counting. Immersing myself in different cultures has deepened my belief that every person's experience is shaped by context, history, and community — and that perspective is something I carry into every therapy room.
+            </p>
+            <p class="reveal reveal-delay-4" style="margin-top:0.75rem">
+              I currently live in Tampa, Florida with my husband, daughter, and two cats. When I'm not working, you'll find me at the beach, hiking, kayaking, or trying a new restaurant or recipe at home.
+            </p>
+          </div>
+          <div>
+            <div class="fun-facts reveal reveal-delay-1">
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Hometown</div>
+                  <div class="fun-fact-val">New York City</div>
+                </div>
+              </div>
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Countries Traveled</div>
+                  <div class="fun-fact-val">30+ and counting</div>
+                </div>
+              </div>
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Before Therapy</div>
+                  <div class="fun-fact-val">Actress &amp; Performer</div>
+                </div>
+              </div>
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Currently Based</div>
+                  <div class="fun-fact-val">Tampa, Florida</div>
+                </div>
+              </div>
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Favorite Hobby</div>
+                  <div class="fun-fact-val">Beach, Hiking, Kayaking</div>
+                </div>
+              </div>
+              <div class="fun-fact-item">
+                <div>
+                  <div class="fun-fact-label">Also Loves</div>
+                  <div class="fun-fact-val">Food &amp; trying new restaurants</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--espresso);padding:5rem 0">
+      <div class="container" style="text-align:center;max-width:600px;margin:0 auto">
+        <span class="eyebrow reveal" style="color:var(--sage-light);background:rgba(168,196,184,0.12);border-color:rgba(168,196,184,0.2)">Ready to Begin?</span>
+        <h2 class="reveal reveal-delay-1" style="color:var(--cream)">
+          I'd be honored to walk <em>alongside you.</em>
+        </h2>
+        <p class="reveal reveal-delay-2" style="margin:1rem auto 2rem;color:rgba(247,243,238,0.6)">
+          Schedule your free 15-minute consultation and let's talk about where you are and where you want to go.
+        </p>
+        <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-sage reveal reveal-delay-3">
+          Book Free Consultation <span class="btn-icon">→</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">Laura Abreu Therapy</div>
+          <p class="footer-tagline">Virtual therapy for millennial women finding peace in Florida, New Jersey, and Vermont.</p>
+          <p style="margin-top:1.25rem"><a href="tel:+19042743278">(904) 274-3278</a></p>
+          <p style="margin-top:0.5rem;font-size:0.8125rem">6421 N Florida Ave, Suite D-1020<br />Tampa, FL 33604</p>
+        </div>
+        <div>
+          <h4>Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="anxiety.html">Anxiety Therapy</a></li>
+            <li><a href="relationship-issues.html">Relationship Issues</a></li>
+            <li><a href="maternal-mental-health.html">Maternal Mental Health</a></li>
+            <li><a href="life-transitions.html">Life Transitions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Laura</a></li>
+            <li><a href="fees.html">Fees & Insurance</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Licensed In</h4>
+          <ul class="footer-links">
+            <li><a href="florida.html">Florida (Online)</a></li>
+            <li><a href="new-jersey.html">New Jersey (Online)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Laura Abreu Therapy. All rights reserved.</span>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
