@@ -407,6 +407,48 @@ footer a:hover { color: var(--terra-light); }
 .italic { font-style: italic; }
 .font-serif { font-family: var(--font-serif); }
 
+/* ---- BILINGUAL BADGE ---- */
+.bilingual-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sage-deep);
+  background: rgba(122,158,142,0.10);
+  border: 1px solid rgba(122,158,142,0.22);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+}
+
+/* ---- FOOTER SOCIAL LINKS ---- */
+.footer-social {
+  display: flex;
+  gap: 0.625rem;
+  margin-top: 1.25rem;
+}
+.footer-social-link {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: rgba(247,243,238,0.08);
+  border: 1px solid rgba(247,243,238,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(247,243,238,0.55);
+  transition: all 0.3s var(--transition);
+}
+.footer-social-link:hover {
+  background: var(--terra);
+  border-color: var(--terra);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
 /* ---- PROCESS STEPS ---- */
 .step-number {
   width: 3rem; height: 3rem;
