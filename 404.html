@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | Laura Abreu Therapy</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .error-page {
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 3rem 2rem;
+      background: var(--cream);
+    }
+    .error-number {
+      font-family: var(--font-serif);
+      font-size: clamp(6rem, 20vw, 14rem);
+      font-weight: 500;
+      line-height: 1;
+      color: var(--cream-dark);
+      letter-spacing: -0.04em;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+    .error-number::after {
+      content: '404';
+      position: absolute;
+      inset: 0;
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(122,158,142,0.3);
+    }
+    .error-page h1 {
+      font-size: clamp(1.75rem, 4vw, 2.75rem);
+      margin-bottom: 1rem;
+      color: var(--espresso);
+    }
+    .error-page p {
+      max-width: 44ch;
+      margin: 0 auto 2.5rem;
+      font-size: 1.0625rem;
+    }
+    .error-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+    .helpful-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      max-width: 700px;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .helpful-link {
+      background: var(--white);
+      border: 1px solid rgba(42,32,24,0.08);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      text-align: center;
+      transition: all 0.3s var(--transition);
+      color: var(--espresso);
+    }
+    .helpful-link:hover {
+      border-color: var(--sage);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-card);
+    }
+    .helpful-link-label {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--terra);
+      margin-bottom: 0.375rem;
+    }
+    .helpful-link-name {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      color: var(--espresso);
+    }
+    @media (max-width: 600px) {
+      .helpful-links { grid-template-columns: 1fr 1fr; }
+      .error-links { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="index.html" class="nav-logo">Laura Abreu Therapy</a>
+      <ul class="nav-links">
+        <li><a href="pages/about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="#">Specialties</a>
+          <div class="nav-dropdown">
+            <a href="pages/anxiety.html">Anxiety Therapy</a>
+            <a href="pages/relationship-issues.html">Relationship Issues</a>
+            <a href="pages/maternal-mental-health.html">Maternal Mental Health</a>
+            <a href="pages/life-transitions.html">Life Transitions</a>
+          </div>
+        </li>
+        <li><a href="pages/fees.html">Fees & Insurance</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+      <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-nav">Book Free Call <span class="btn-icon">→</span></a>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" role="dialog" aria-modal="true">
+    <a href="index.html">Home</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/anxiety.html">Anxiety Therapy</a>
+    <a href="pages/fees.html">Fees & Insurance</a>
+    <a href="pages/contact.html">Contact</a>
+    <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" class="mobile-cta">Book Free Call →</a>
+  </div>
+
+  <main>
+    <div class="error-page">
+      <div class="error-number" aria-hidden="true">404</div>
+      <span class="eyebrow" style="margin-bottom: 1rem;">Page Not Found</span>
+      <h1>This page seems to have <em>wandered off</em></h1>
+      <p>The page you're looking for doesn't exist or may have moved. Let's get you back somewhere helpful.</p>
+      <div class="error-links">
+        <a href="index.html" class="btn btn-primary">Go Home <span class="btn-icon">→</span></a>
+        <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-outline">Book Free Call</a>
+      </div>
+      <p style="font-size: 0.875rem; color: var(--warm-mid); margin-bottom: 1.25rem;">Or jump to one of these pages:</p>
+      <div class="helpful-links">
+        <a href="pages/about.html" class="helpful-link">
+          <div class="helpful-link-label">Meet</div>
+          <div class="helpful-link-name">About Laura</div>
+        </a>
+        <a href="pages/anxiety.html" class="helpful-link">
+          <div class="helpful-link-label">Specialty</div>
+          <div class="helpful-link-name">Anxiety Therapy</div>
+        </a>
+        <a href="pages/maternal-mental-health.html" class="helpful-link">
+          <div class="helpful-link-label">Specialty</div>
+          <div class="helpful-link-name">Maternal Health</div>
+        </a>
+        <a href="pages/fees.html" class="helpful-link">
+          <div class="helpful-link-label">Info</div>
+          <div class="helpful-link-name">Fees & Insurance</div>
+        </a>
+        <a href="pages/faq.html" class="helpful-link">
+          <div class="helpful-link-label">Info</div>
+          <div class="helpful-link-name">FAQ</div>
+        </a>
+        <a href="pages/contact.html" class="helpful-link">
+          <div class="helpful-link-label">Reach Out</div>
+          <div class="helpful-link-name">Contact</div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

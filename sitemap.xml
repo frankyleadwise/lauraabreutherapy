@@ -54,6 +54,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/faq.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- CONTACT -->
   <url>
     <loc>https://www.lauraabreutherapy.com/pages/contact.html</loc>
@@ -85,7 +93,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- LEGAL (noindex, but included for completeness — remove if you prefer) -->
-  <!-- Excluded: privacy.html and terms.html are set to noindex -->
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/vermont.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- LEGAL (noindex — excluded from sitemap intentionally) -->
 
 </urlset>

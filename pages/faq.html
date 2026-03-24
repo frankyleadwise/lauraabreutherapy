@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | Frequently Asked Questions | Laura Abreu Therapy</title>
+  <meta name="description" content="Answers to frequently asked questions about therapy with Laura Abreu, LCSW — how to get started, what to expect, insurance, fees, and more. Online therapy in Florida and New Jersey." />
+  <link rel="canonical" href="https://www.lauraabreutherapy.com/pages/faq.html" />
+  <meta property="og:title" content="FAQ | Laura Abreu Therapy" />
+  <meta property="og:description" content="Everything you need to know about starting therapy with Laura Abreu, LCSW — fees, insurance, what to expect, and more." />
+  <meta property="og:url" content="https://www.lauraabreutherapy.com/pages/faq.html" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I get started with therapy?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Click the Book Now button to fill out a short intake form. You'll receive a link to schedule a free 15-minute consultation call. If we're a good fit, we'll schedule your first full 60-minute session." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does therapy cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The initial 60-minute session is $200. Regular 53-minute sessions are $175. Laura is in-network with Aetna, Cigna, United Healthcare, Oscar, and Oxford. Superbills are provided for out-of-network reimbursement." }
+      },
+      {
+        "@type": "Question",
+        "name": "What insurance does Laura Abreu accept?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Laura is in-network with Aetna, Cigna, United Healthcare, Oscar, and Oxford in Florida and New Jersey. She also provides superbills for clients with out-of-network benefits." }
+      },
+      {
+        "@type": "Question",
+        "name": "What states is Laura Abreu licensed in?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Laura is independently licensed as an LCSW in Florida, New Jersey, and Vermont." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is online therapy as effective as in-person therapy?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Research consistently shows that online therapy is equally effective as in-person therapy for most concerns including anxiety, relationship issues, and depression. Many clients find it easier to open up from home." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Laura Abreu's cancellation policy?",
+        "acceptedAnswer": { "@type": "Answer", "text": "At least 24 hours notice is required to cancel or reschedule. Late cancellations or no-shows may be charged the full session fee." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Laura Abreu offer a sliding scale?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Laura does not currently offer a sliding scale, but accepts several major insurance plans and provides superbills for out-of-network reimbursement." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Laura Abreu's specialty?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Laura specializes in anxiety therapy, relationship issues and breakup recovery, maternal mental health (PMH-C certified), and life transitions for millennial women in Florida and New Jersey." }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .page-hero {
+      padding: 11rem 0 5rem;
+      background: var(--cream-dark);
+      text-align: center;
+    }
+    .page-hero h1 { max-width: 700px; margin: 0 auto; }
+    .page-hero p  { max-width: 52ch; margin: 1rem auto 0; }
+
+    /* CATEGORY NAV */
+    .faq-nav {
+      display: flex;
+      gap: 0.625rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .faq-nav-btn {
+      font-family: var(--font-sans);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: 0.5rem 1.1rem;
+      border-radius: var(--radius-full);
+      border: 1.5px solid rgba(42,32,24,0.15);
+      background: transparent;
+      color: var(--warm-mid);
+      cursor: pointer;
+      transition: all 0.3s var(--transition);
+      text-decoration: none;
+      display: inline-block;
+    }
+    .faq-nav-btn:hover { background: var(--espresso); border-color: var(--espresso); color: var(--cream); }
+
+    /* FAQ */
+    .faq-group { margin-bottom: 4rem; }
+    .faq-group-title {
+      font-family: var(--font-sans);
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--terra);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .faq-group-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(194,113,74,0.18);
+    }
+
+    .faq-list { display: flex; flex-direction: column; }
+    .faq-item { border-bottom: 1px solid rgba(42,32,24,0.08); overflow: hidden; }
+    .faq-q {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.375rem 0; cursor: pointer; gap: 1rem;
+    }
+    .faq-q h3 {
+      font-family: var(--font-sans); font-size: 1.0625rem;
+      font-weight: 600; color: var(--espresso); margin: 0;
+    }
+    .faq-icon {
+      width: 2rem; height: 2rem; border-radius: 50%;
+      background: rgba(122,158,142,0.10); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.25rem; color: var(--terra);
+      transition: transform 0.35s var(--transition);
+    }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.45s var(--transition); }
+    .faq-a-inner { padding: 0 0 1.5rem; }
+    .faq-a-inner p { font-size: 0.9375rem; max-width: none; }
+    .faq-a-inner a { color: var(--terra); text-decoration: underline; }
+
+    /* STILL HAVE Q'S */
+    .still-questions {
+      background: var(--cream-dark);
+      border-radius: var(--radius-lg);
+      padding: 3rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .still-questions h2 { font-size: 1.875rem; margin-bottom: 0.75rem; }
+    .still-questions p { max-width: 44ch; margin: 0 auto 2rem; }
+    .still-questions .btn-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="../index.html" class="nav-logo">Laura Abreu Therapy</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="#">Specialties</a>
+          <div class="nav-dropdown">
+            <a href="anxiety.html">Anxiety Therapy</a>
+            <a href="relationship-issues.html">Relationship Issues</a>
+            <a href="maternal-mental-health.html">Maternal Mental Health</a>
+            <a href="life-transitions.html">Life Transitions</a>
+          </div>
+        </li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="fees.html">Fees & Insurance</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-nav">Book Free Call <span class="btn-icon">→</span></a>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" role="dialog" aria-modal="true">
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="anxiety.html">Anxiety Therapy</a>
+    <a href="relationship-issues.html">Relationship Issues</a>
+    <a href="maternal-mental-health.html">Maternal Mental Health</a>
+    <a href="fees.html">Fees & Insurance</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" class="mobile-cta">Book Free Call →</a>
+  </div>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="faq-hero-heading">
+      <div class="container">
+        <span class="eyebrow reveal" style="display:inline-flex;margin:0 auto 0.75rem">Got Questions?</span>
+        <h1 id="faq-hero-heading" class="reveal reveal-delay-1">
+          Everything you need to know <em>before you begin</em>
+        </h1>
+        <p class="reveal reveal-delay-2">
+          Starting therapy can feel like a big step. Here are honest answers to the questions I hear most — because you deserve to feel informed and at ease before our first conversation.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container" style="max-width: 880px; margin: 0 auto;">
+
+        <div class="faq-nav reveal">
+          <a href="#getting-started" class="faq-nav-btn">Getting Started</a>
+          <a href="#fees-insurance" class="faq-nav-btn">Fees & Insurance</a>
+          <a href="#online-therapy" class="faq-nav-btn">Online Therapy</a>
+          <a href="#what-to-expect" class="faq-nav-btn">What to Expect</a>
+          <a href="#specialties" class="faq-nav-btn">Specialties</a>
+          <a href="#logistics" class="faq-nav-btn">Logistics</a>
+        </div>
+
+        <!-- GETTING STARTED -->
+        <div class="faq-group reveal" id="getting-started">
+          <div class="faq-group-title">Getting Started</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>How do I get started?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Click "Book Now" anywhere on the site. You'll fill out a short intake form and receive a link to schedule your free 15-minute consultation call. During that call, we'll talk about what brings you to therapy and decide together whether we're a good fit. If so, we'll book your first full session.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What is the free consultation call?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>It's a free, no-pressure 15-minute video or phone call where we get to know each other a little. I'll ask what brings you to therapy and what you're hoping to work on, and you can ask me anything about my approach or what to expect. There's zero obligation to book after — it's genuinely just a chance to see if we click.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Are you currently accepting new clients?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Yes — I am currently accepting new clients. Schedule your free consultation to get started. Availability can change, so if you've been thinking about reaching out, now is a good time.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What if I've had a bad therapy experience before?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I hear this often — and I take it seriously. The therapeutic relationship is one of the most important factors in whether therapy works. The free consultation is a low-pressure opportunity to get a genuine feel for my style. I'd love to hear what didn't work before and talk through how I do things differently.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- FEES & INSURANCE -->
+        <div class="faq-group reveal" id="fees-insurance">
+          <div class="faq-group-title">Fees & Insurance</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>How much does therapy cost?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>The free 15-minute consultation is — free. The initial 60-minute intake session is $200. Regular 53-minute sessions are $175. See the full <a href="fees.html">Fees & Insurance page</a> for details.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What insurance do you accept?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I am in-network with Aetna, Cigna, United Healthcare, Oscar, and Oxford in both Florida and New Jersey. Your out-of-pocket cost depends on your individual plan, deductible, and copay. I recommend calling your insurer to confirm your telehealth benefits before our first session.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What if my insurance isn't on your list?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I provide superbills — detailed receipts that you can submit to your insurer for out-of-network reimbursement. Many plans reimburse 50–80% of out-of-network therapy costs. <a href="contact.html">Contact me</a> and we'll figure out what options work for you.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Do you offer a sliding scale?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I do not currently offer a sliding scale. However, accepting multiple insurance plans and providing superbills are ways I try to make therapy as accessible as possible. If cost is a barrier, please reach out and we can talk through your options honestly.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Can I use my FSA or HSA to pay for therapy?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Yes. Therapy is a qualified medical expense, so FSA (Flexible Spending Account) and HSA (Health Savings Account) funds can typically be used for session fees. Check with your plan administrator to confirm.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ONLINE THERAPY -->
+        <div class="faq-group reveal" id="online-therapy">
+          <div class="faq-group-title">Online Therapy</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Is online therapy as effective as in-person?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Yes — research consistently shows that telehealth therapy is equally effective as in-person sessions for anxiety, depression, relationship issues, and most other concerns. Many clients find it easier to open up and do the work from the comfort and privacy of their own space.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What platform do you use for sessions?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>All sessions are conducted via a HIPAA-compliant, encrypted video platform. You'll receive a secure link before each session. No downloads or accounts are needed — just click the link, allow camera and microphone access, and you're in.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Which states can I be in for a session?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>You must be physically located in Florida, New Jersey, or Vermont at the time of your session — those are the three states where I hold an independent LCSW license. You don't need to be a permanent resident; you just need to be in one of those states when we meet.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What do I need for a telehealth session?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>A private, quiet space where you won't be overheard. A device with a camera and microphone (phone, tablet, or laptop). A reliable internet connection. That's it. I recommend having a glass of water nearby and giving yourself a few minutes to settle before we start.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- WHAT TO EXPECT -->
+        <div class="faq-group reveal" id="what-to-expect">
+          <div class="faq-group-title">What to Expect</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What happens in the first session?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>The first session is a 60-minute deep dive into your story. We'll cover your history, current challenges, relationships, and what you're hoping to change or heal. You don't need to prepare anything — just show up as you are. It's not an interrogation; it's a conversation. My job is to listen deeply and start to understand you as a whole person.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>How long will I be in therapy?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>It depends on your goals and the complexity of what you're working through. Therapy is not meant to go on forever. After 2–3 sessions, I'll put together a personalized treatment plan with clear goals so you always know where we're headed. Many clients work through their primary issues within a few months; others choose to continue longer for deeper personal growth.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>How often will we meet?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Most clients start with weekly sessions, especially at the beginning when we're building momentum and rapport. As you progress, we may shift to biweekly. The frequency is always tailored to your treatment plan and what actually works for your life.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Is what I share in therapy confidential?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Yes — confidentiality is the foundation of therapy. Everything you share stays between us. There are limited legal exceptions (imminent risk of harm, mandatory child abuse reporting, valid court orders), which I'll explain fully in our first session. I take your privacy extremely seriously.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What if I cry or get emotional?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>That's completely welcome — therapy is one of the few spaces where you don't have to hold it together. Tears, anger, confusion, silence — all of it belongs here. You will never be judged for how you feel or how you express it.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SPECIALTIES -->
+        <div class="faq-group reveal" id="specialties">
+          <div class="faq-group-title">Specialties</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Do you only work with women?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>My practice is focused on millennial women, which is where my deepest training, experience, and passion lies. If you identify as a woman or are a person who relates to the experiences I work with — anxiety, relationship issues, maternal mental health — I'd love to hear from you.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Do you do couples therapy?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I currently specialize in individual therapy for women. That said, the work we do together — understanding your patterns, needs, and attachment style — has a profound positive impact on all your relationships, including romantic ones.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Are you trained in perinatal mental health?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>Yes — I hold a Perinatal Mental Health Certification (PMH-C), which reflects specialized training and expertise in supporting women through fertility struggles, pregnancy, and the postpartum period. This is an area I'm deeply passionate about.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What therapeutic approach do you use?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>My primary approach is Cognitive Behavioral Therapy (CBT) — the gold standard for anxiety and many other concerns — along with Trauma-Focused CBT (TF-CBT) and an anti-oppressive, social justice orientation. I tailor my approach to each client; there's no one-size-fits-all in my practice.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- LOGISTICS -->
+        <div class="faq-group reveal" id="logistics">
+          <div class="faq-group-title">Logistics</div>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What is your cancellation policy?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I ask for at least 24 hours' notice to cancel or reschedule. Late cancellations or no-shows may be charged the full session fee. I understand that life happens — please just communicate with me and we'll work something out.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>What are your availability hours?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>I see clients Monday through Friday. Specific availability varies — the best way to see current openings is to visit the booking portal. All times are Eastern Time (ET).</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>Do you prescribe medication?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>No. As an LCSW, I am not authorized to prescribe medication. If medication might be helpful for you, I can provide referrals to trusted psychiatrists or collaborate with your existing prescriber. Therapy and medication often work very well together.</p>
+              </div></div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+                <h3>How do I contact you between sessions?</h3>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </div>
+              <div class="faq-a" role="region"><div class="faq-a-inner">
+                <p>For non-urgent matters, you can reach me through the secure client portal or by email. I typically respond within one business day. Please note that I am not available for crisis support between sessions — if you are experiencing a mental health emergency, call 988 (Suicide and Crisis Lifeline) or go to your nearest emergency room.</p>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- STILL HAVE QUESTIONS -->
+        <div class="still-questions reveal">
+          <span class="eyebrow" style="display:inline-flex;margin:0 auto 0.75rem">Still Curious?</span>
+          <h2>Your question isn't here? <em>Ask me directly.</em></h2>
+          <p>I'm happy to answer any question before you commit to a thing. No question is too small or too silly.</p>
+          <div class="btn-row">
+            <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-primary">Book Free Call <span class="btn-icon">→</span></a>
+            <a href="contact.html" class="btn btn-outline">Send a Message</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">Laura Abreu Therapy</div>
+          <p class="footer-tagline">Virtual therapy for millennial women in Florida, New Jersey, and Vermont.</p>
+          <p style="margin-top:1.25rem"><a href="tel:+19042743278">(904) 274-3278</a></p>
+        </div>
+        <div>
+          <h4>Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="anxiety.html">Anxiety Therapy</a></li>
+            <li><a href="relationship-issues.html">Relationship Issues</a></li>
+            <li><a href="maternal-mental-health.html">Maternal Mental Health</a></li>
+            <li><a href="life-transitions.html">Life Transitions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Laura</a></li>
+            <li><a href="fees.html">Fees & Insurance</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Service Areas</h4>
+          <ul class="footer-links">
+            <li><a href="florida.html">Florida (Online)</a></li>
+            <li><a href="new-jersey.html">New Jersey (Online)</a></li>
+            <li><a href="vermont.html">Vermont (Online)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Laura Abreu Therapy. All rights reserved.</span>
+        <span><a href="privacy.html" style="margin-right:1.5rem">Privacy Policy</a><a href="terms.html">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
