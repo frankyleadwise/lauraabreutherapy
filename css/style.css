@@ -108,6 +108,7 @@ section { padding: 7rem 0; }
   display: flex;
   justify-content: center;
   pointer-events: none;
+  overflow: visible;
 }
 .nav-island {
   pointer-events: all;
@@ -122,6 +123,7 @@ section { padding: 7rem 0; }
   padding: 0.6rem 0.6rem 0.6rem 1.5rem;
   box-shadow: 0 4px 32px rgba(42,32,24,0.10), inset 0 1px 0 rgba(255,255,255,0.6);
   transition: all 0.5s var(--transition);
+  overflow: visible;
 }
 .nav-logo {
   font-family: var(--font-serif);
@@ -150,22 +152,11 @@ section { padding: 7rem 0; }
 .nav-links .has-dropdown { position: relative; }
 .nav-links .has-dropdown > a::after { content: ' ↓'; font-size: 0.65rem; opacity: 0.5; }
 
-/* Invisible bridge fills the gap between trigger and dropdown so mouse doesn't fall through */
-.nav-links .has-dropdown::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: -1rem;
-  right: -1rem;
-  height: 1.25rem;
-  display: block;
-}
-
 .nav-dropdown {
   position: absolute;
-  top: calc(100% + 1rem);
+  top: calc(100% + 0.5rem);
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(8px);
   background: var(--white);
   border: 1px solid rgba(122, 158, 142, 0.18);
   border-radius: var(--radius-md);
@@ -174,23 +165,21 @@ section { padding: 7rem 0; }
   box-shadow: var(--shadow-soft);
   opacity: 0;
   pointer-events: none;
-  transform: translateX(-50%) translateY(8px);
-  transition: opacity 0.3s var(--transition), transform 0.3s var(--transition);
-  /* Delay hiding so mouse can travel to the menu */
-  transition-delay: 0s;
+  transition: opacity 0.25s var(--transition), transform 0.25s var(--transition);
+}
+/* Invisible padding-top on dropdown so hover zone is continuous — no dead zone */
+.nav-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -0.75rem;
+  left: 0;
+  right: 0;
+  height: 0.75rem;
 }
 .nav-links .has-dropdown:hover .nav-dropdown {
   opacity: 1;
   pointer-events: all;
   transform: translateX(-50%) translateY(0);
-  transition-delay: 0s;
-}
-/* Keep menu visible briefly after mouse leaves — prevents snap-close */
-.nav-links .has-dropdown .nav-dropdown {
-  transition: opacity 0.3s var(--transition) 0.15s, transform 0.3s var(--transition) 0.15s;
-}
-.nav-links .has-dropdown:hover .nav-dropdown {
-  transition-delay: 0s;
 }
 .nav-dropdown a {
   display: block;
