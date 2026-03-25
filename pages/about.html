@@ -88,6 +88,12 @@
 
     /* APPROACH */
     .approach-section { background:var(--cream-dark); }
+    .approach-two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
     .approach-list {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -139,6 +145,7 @@
     @media (max-width:768px) {
       .page-hero-grid { grid-template-columns:1fr;gap:2.5rem; }
       .credentials-grid { grid-template-columns:1fr; }
+      .approach-two-col { grid-template-columns:1fr; gap:2rem; }
       .approach-list { grid-template-columns:1fr; }
       .personal-grid { grid-template-columns:1fr; }
     }
@@ -300,7 +307,7 @@
     <!-- APPROACH -->
     <section class="approach-section" aria-labelledby="approach-heading">
       <div class="container">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start">
+        <div class="approach-two-col">
           <div>
             <span class="eyebrow reveal">My Approach</span>
             <h2 id="approach-heading" class="reveal reveal-delay-1">
