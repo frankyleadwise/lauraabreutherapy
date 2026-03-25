@@ -102,4 +102,53 @@
 
   <!-- LEGAL (noindex — excluded from sitemap intentionally) -->
 
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-cbt-anxiety-techniques.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-emotionally-unavailable-partners.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-postpartum-anxiety-vs-depression.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-grief-life-you-thought-youd-have.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-morning-routine-anxiety.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-boundaries-people-pleasers.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lauraabreutherapy.com/pages/blog-self-care-real-meaning.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
