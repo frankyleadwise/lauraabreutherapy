@@ -86,4 +86,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* ---- DROPDOWN HOVER WITH DELAY ---- */
+  document.querySelectorAll('.has-dropdown').forEach(item => {
+    let hideTimer;
+    const dropdown = item.querySelector('.nav-dropdown');
+    if (!dropdown) return;
+    item.addEventListener('mouseenter', () => {
+      clearTimeout(hideTimer);
+      dropdown.style.opacity = '1';
+      dropdown.style.pointerEvents = 'all';
+      dropdown.style.transform = 'translateX(-50%) translateY(0)';
+    });
+    item.addEventListener('mouseleave', () => {
+      hideTimer = setTimeout(() => {
+        dropdown.style.opacity = '0';
+        dropdown.style.pointerEvents = 'none';
+        dropdown.style.transform = 'translateX(-50%) translateY(8px)';
+      }, 250);
+    });
+  });
+
 });
