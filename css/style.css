@@ -126,12 +126,16 @@ section { padding: 7rem 0; }
   overflow: visible;
 }
 .nav-logo {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--espresso);
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
   margin-right: 2rem;
+  flex-shrink: 0;
+}
+.nav-logo-img {
+  height: 2.25rem;
+  width: auto;
+  display: block;
+  /* Logo is black on transparent — fine on cream nav bg */
 }
 .nav-links {
   display: flex;
