@@ -8,6 +8,17 @@
   <link rel="icon" type="image/webp" href="images/favicon.webp" />
   <link rel="apple-touch-icon" href="images/favicon.webp" />
   <link rel="stylesheet" href="css/style.css" />
+  <script>
+    // Redirect known old URLs that have SEO value
+    var path = window.location.pathname.replace(/\/$/, '');
+    var redirects = {
+      '/tampa': '/tampa/',
+      '/tampa/': '/tampa/'
+    };
+    if (redirects[path] || redirects[path + '/']) {
+      window.location.replace(redirects[path] || redirects[path + '/']);
+    }
+  </script>
   <style>
     .error-page {
       min-height: 100dvh;
