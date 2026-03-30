@@ -13,12 +13,20 @@
     var path = window.location.pathname.replace(/\/$/, '') || '/';
     var redirects = {
       '/tampa':              '/tampa/',
+      '/miami':              '/miami/',
+      '/orlando':            '/orlando/',
+      '/jacksonville':       '/jacksonville/',
+      '/fort-lauderdale':    '/fort-lauderdale/',
+      '/st-petersburg':      '/st-petersburg/',
+      '/st-pete':            '/st-petersburg/',
+      '/florida':            '/pages/florida.html',
       '/home':               '/',
+      '/bio':                '/pages/about.html',
       '/areas-of-focus':     '/pages/anxiety.html',
       '/locations':          '/pages/florida.html',
       '/contact-us':         '/pages/contact.html',
       '/contact-us-1':       '/pages/contact.html',
-      '/jacksonville-1-1-1': '/pages/florida.html'
+      '/jacksonville-1-1-1': '/jacksonville/'
     };
     if (redirects[path] || redirects[path + '/']) {
       window.location.replace(redirects[path] || redirects[path + '/']);
