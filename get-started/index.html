@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NSTRJVGVC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1NSTRJVGVC');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request a Free Consultation | Laura Abreu Therapy</title>
+  <meta name="description" content="Request a free 15-minute consultation with Laura Abreu, LCSW. Virtual therapy for women in Florida, New Jersey, and Vermont." />
+  <link rel="canonical" href="https://www.lauraabreutherapy.com/get-started/" />
+  <link rel="icon" type="image/webp" href="../images/favicon.webp" />
+  <link rel="apple-touch-icon" href="../images/favicon.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" /></noscript>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .form-hero {
+      padding: 10rem 0 4rem;
+      background: var(--cream-dark);
+      text-align: center;
+    }
+    .form-hero h1 { max-width: 600px; margin: 0 auto 1rem; }
+    .form-hero p { max-width: 52ch; margin: 0 auto; }
+
+    .form-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 1.5rem 6rem;
+    }
+
+    .form-steps {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      margin: 3rem 0 2.5rem;
+    }
+    .form-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+      position: relative;
+    }
+    .form-step:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 1.25rem;
+      left: 50%;
+      width: 100%;
+      height: 1px;
+      background: rgba(122,158,142,0.25);
+    }
+    .step-circle {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background: var(--sage);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-serif);
+      font-size: 1.125rem;
+      position: relative;
+      z-index: 1;
+    }
+    .step-label {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--warm-mid);
+      text-align: center;
+      max-width: 100px;
+    }
+
+    /* Form styles */
+    .lead-form {
+      background: var(--white);
+      border: 1px solid rgba(42,32,24,0.08);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .form-group:last-of-type { margin-bottom: 0; }
+    .form-group label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--espresso);
+      font-family: var(--font-sans);
+    }
+    .form-group label span {
+      color: var(--terra);
+      margin-left: 2px;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 1px solid rgba(42,32,24,0.15);
+      border-radius: var(--radius-md);
+      font-family: var(--font-sans);
+      font-size: 0.9375rem;
+      color: var(--espresso);
+      background: var(--cream);
+      transition: border-color 0.2s, box-shadow 0.2s;
+      appearance: none;
+      -webkit-appearance: none;
+      box-sizing: border-box;
+    }
+    .form-group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%232A2018' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      padding-right: 2.5rem;
+      cursor: pointer;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--sage);
+      box-shadow: 0 0 0 3px rgba(122,158,142,0.12);
+      background: var(--white);
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+      line-height: 1.6;
+    }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { color: rgba(42,32,24,0.35); }
+
+    .virtual-note {
+      background: rgba(122,158,142,0.08);
+      border: 1px solid rgba(122,158,142,0.2);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .virtual-note-icon {
+      font-size: 1.125rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .virtual-note p {
+      font-size: 0.875rem;
+      color: var(--espresso);
+      margin: 0;
+      max-width: none;
+      line-height: 1.5;
+    }
+
+    .form-divider {
+      height: 1px;
+      background: rgba(42,32,24,0.08);
+      margin: 1.75rem 0;
+    }
+
+    .form-submit-area { text-align: center; margin-top: 2rem; }
+    .form-submit-area .btn { width: 100%; justify-content: center; font-size: 1rem; padding: 1rem 2rem; }
+    .form-privacy {
+      font-size: 0.8125rem;
+      color: var(--warm-mid);
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .form-row { grid-template-columns: 1fr; }
+      .lead-form { padding: 1.75rem 1.25rem; }
+      .form-steps { gap: 0; }
+      .step-label { font-size: 0.5625rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="../index.html" class="nav-logo"><img src="../images/logo.webp" alt="Laura Abreu Therapy" class="nav-logo-img" /></a>
+      <ul class="nav-links">
+        <li><a href="../pages/about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="#">Specialties</a>
+          <div class="nav-dropdown">
+            <a href="../pages/anxiety.html">Anxiety Therapy</a>
+            <a href="../pages/relationship-issues.html">Relationship Issues</a>
+            <a href="../pages/maternal-mental-health.html">Maternal Mental Health</a>
+            <a href="../pages/life-transitions.html">Life Transitions</a>
+          </div>
+        </li>
+        <li><a href="../pages/faq.html">FAQ</a></li>
+        <li><a href="../pages/fees.html">Fees & Insurance</a></li>
+      </ul>
+      <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" rel="noopener" class="btn btn-nav" style="font-size:0.8125rem;">Existing Clients →</a>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" role="dialog" aria-modal="true">
+    <a href="../index.html">Home</a>
+    <a href="../pages/about.html">About</a>
+    <a href="../pages/anxiety.html">Anxiety Therapy</a>
+    <a href="../pages/fees.html">Fees & Insurance</a>
+    <a href="https://lauraabreutherapy.clientsecure.me" target="_blank" class="mobile-cta">Existing Clients →</a>
+  </div>
+
+  <main id="main-content">
+
+    <section class="form-hero">
+      <div class="container">
+        <span class="eyebrow" style="display:inline-flex;margin-bottom:0.75rem">Free Consultation</span>
+        <h1>Let's see if we're <em>a good fit.</em></h1>
+        <p>Fill out the form below and Laura will personally reach out within 1 business day — by phone, text, or email.</p>
+      </div>
+    </section>
+
+    <div class="form-wrap">
+
+      <div class="form-steps">
+        <div class="form-step">
+          <div class="step-circle">1</div>
+          <span class="step-label">Fill out the form</span>
+        </div>
+        <div class="form-step">
+          <div class="step-circle">2</div>
+          <span class="step-label">Laura reaches out</span>
+        </div>
+        <div class="form-step">
+          <div class="step-circle">3</div>
+          <span class="step-label">Schedule your free call</span>
+        </div>
+      </div>
+
+      <div class="lead-form">
+        <form
+          action="https://formspree.io/f/mgopwkvk"
+          method="POST"
+          novalidate
+          onsubmit="handleSubmit(event)"
+        >
+          <!-- Hidden field for source tracking -->
+          <input type="hidden" name="_subject" value="New Consultation Request — lauraabreutherapy.com" />
+          <input type="hidden" name="_next" value="https://www.lauraabreutherapy.com/thank-you/" />
+
+          <!-- Name -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name <span>*</span></label>
+              <input type="text" id="first-name" name="first_name" placeholder="Maria" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name <span>*</span></label>
+              <input type="text" id="last-name" name="last_name" placeholder="Rodriguez" required />
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone <span>*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="(813) 555-0100" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span>*</span></label>
+              <input type="email" id="email" name="email" placeholder="maria@email.com" required />
+            </div>
+          </div>
+
+          <div class="form-divider"></div>
+
+          <!-- State -->
+          <div class="form-group">
+            <label for="state">Which state are you located in? <span>*</span></label>
+            <select id="state" name="state" required>
+              <option value="" disabled selected>Select your state</option>
+              <option value="Florida">Florida</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="Vermont">Vermont</option>
+            </select>
+          </div>
+
+          <!-- Insurance -->
+          <div class="form-group">
+            <label for="insurance">How do you plan to pay for sessions? <span>*</span></label>
+            <select id="insurance" name="insurance" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Aetna">Aetna</option>
+              <option value="Cigna">Cigna</option>
+              <option value="United Healthcare">United Healthcare</option>
+              <option value="Oscar">Oscar</option>
+              <option value="Oxford">Oxford</option>
+              <option value="Self Pay">Self Pay</option>
+              <option value="Other">Other Insurance (superbill)</option>
+            </select>
+          </div>
+
+          <!-- Referral -->
+          <div class="form-group">
+            <label for="referral">How did you hear about Laura? <span>*</span></label>
+            <select id="referral" name="referral" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Google Search">Google Search</option>
+              <option value="Psychology Today">Psychology Today</option>
+              <option value="Therapy for Black Girls">Therapy for Black Girls</option>
+              <option value="Latinx Therapy">Latinx Therapy</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Referral from friend or family">Referral — friend or family</option>
+              <option value="Referral from another therapist">Referral — another therapist</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-divider"></div>
+
+          <!-- Message -->
+          <div class="form-group">
+            <label for="message">What brings you to therapy? <span>*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Share as much or as little as you'd like. There are no wrong answers here."
+              required
+            ></textarea>
+          </div>
+
+          <!-- Virtual note -->
+          <div class="virtual-note">
+            <span class="virtual-note-icon">💻</span>
+            <p>All sessions are conducted virtually via secure, HIPAA-compliant video — available anywhere in Florida, New Jersey, or Vermont. No commute, no waiting room.</p>
+          </div>
+
+          <div class="form-submit-area">
+            <button type="submit" class="btn btn-primary">
+              Send My Request <span class="btn-icon">→</span>
+            </button>
+            <p class="form-privacy">🔒 Your information is private and will never be shared. Laura will reach out personally within 1 business day.</p>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name"><img src="../images/logo.webp" alt="Laura Abreu Therapy" style="height:3.5rem;width:auto;filter:brightness(0) invert(1);opacity:0.9;" /></div>
+          <p class="footer-tagline">Virtual therapy for millennial women in Florida, New Jersey, and Vermont.<br><span style="font-size:0.75rem;opacity:0.5;margin-top:0.5rem;display:block">FL: SW19049 &nbsp;|&nbsp; NJ: 44SC06498200 &nbsp;|&nbsp; VT: 089.0134777TELE</span></p>
+          <p style="margin-top: 1.25rem;"><a href="tel:+19042743278">(904) 274-3278</a></p>
+        </div>
+        <div>
+          <h4>Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="../pages/anxiety.html">Anxiety Therapy</a></li>
+            <li><a href="../pages/relationship-issues.html">Relationship Issues</a></li>
+            <li><a href="../pages/maternal-mental-health.html">Maternal Mental Health</a></li>
+            <li><a href="../pages/life-transitions.html">Life Transitions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="../pages/about.html">About Laura</a></li>
+            <li><a href="../pages/fees.html">Fees & Insurance</a></li>
+            <li><a href="../pages/faq.html">FAQ</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Service Areas</h4>
+          <ul class="footer-links">
+            <li><a href="../tampa/">Tampa</a></li>
+            <li><a href="../miami/">Miami</a></li>
+            <li><a href="../orlando/">Orlando</a></li>
+            <li><a href="../jacksonville/">Jacksonville</a></li>
+            <li><a href="../fort-lauderdale/">Fort Lauderdale</a></li>
+            <li><a href="../st-petersburg/">St. Petersburg</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Laura Abreu Therapy. All rights reserved.</span>
+        <span><a href="../pages/privacy.html" style="margin-right:1.5rem">Privacy Policy</a><a href="../pages/terms.html">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      // GA4 conversion event on submit
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'consultation_request', {
+          'event_category': 'lead',
+          'event_label': 'form_submit'
+        });
+      }
+    }
+  </script>
+</body>
+</html>

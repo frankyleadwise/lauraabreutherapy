@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NSTRJVGVC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1NSTRJVGVC');
+    // Fire conversion event
+    gtag('event', 'consultation_request', {
+      'event_category': 'lead',
+      'event_label': 'contact_form_submission'
+    });
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Laura Abreu Therapy</title>
+  <link rel="icon" type="image/webp" href="../images/favicon.webp" />
+  <link rel="apple-touch-icon" href="../images/favicon.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" /></noscript>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .ty-page {
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--cream-dark);
+    }
+    .ty-icon {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      background: rgba(122,158,142,0.15);
+      border: 1px solid rgba(122,158,142,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 2rem;
+      font-size: 2rem;
+    }
+    .ty-page h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem; }
+    .ty-page p { max-width: 48ch; margin: 0 auto 1rem; font-size: 1.0625rem; }
+    .ty-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin: 3rem auto;
+      max-width: 700px;
+      width: 100%;
+    }
+    .ty-step {
+      background: var(--white);
+      border: 1px solid rgba(122,158,142,0.15);
+      border-radius: var(--radius-md);
+      padding: 1.5rem 1.25rem;
+    }
+    .ty-step-num {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      color: var(--terra);
+      opacity: 0.4;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .ty-step p { font-size: 0.875rem; margin: 0; max-width: none; }
+    @media (max-width: 600px) { .ty-steps { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <div class="nav-island">
+      <a href="../index.html" class="nav-logo"><img src="../images/logo.webp" alt="Laura Abreu Therapy" class="nav-logo-img" /></a>
+      <ul class="nav-links">
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/fees.html">Fees & Insurance</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="ty-page">
+      <div class="ty-icon">✓</div>
+      <span class="eyebrow" style="margin-bottom: 0.75rem; display: inline-flex;">Message Received</span>
+      <h1>You're in good hands.</h1>
+      <p>Thank you for reaching out. Laura will personally review your message and get back to you within <strong>1 business day</strong>.</p>
+      <p style="color: var(--warm-mid); font-size: 0.9375rem;">Keep an eye on your phone and email — she may reach out by either.</p>
+
+      <div class="ty-steps">
+        <div class="ty-step">
+          <div class="ty-step-num">01</div>
+          <p><strong>Laura reviews your message</strong> and makes sure she's the right fit for what you're going through.</p>
+        </div>
+        <div class="ty-step">
+          <div class="ty-step-num">02</div>
+          <p><strong>She reaches out personally</strong> via phone or email within 1 business day to connect.</p>
+        </div>
+        <div class="ty-step">
+          <div class="ty-step-num">03</div>
+          <p><strong>You schedule your free 15-min call</strong> and take the first real step toward feeling better.</p>
+        </div>
+      </div>
+
+      <a href="../index.html" class="btn btn-outline">Back to Home</a>
+    </div>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
