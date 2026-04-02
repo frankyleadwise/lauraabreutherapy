@@ -260,36 +260,6 @@ section { padding: 7rem 0; }
 .mobile-overlay.open a:nth-child(4) { transition-delay: 0.20s; }
 .mobile-overlay.open a:nth-child(5) { transition-delay: 0.25s; }
 .mobile-overlay.open a:nth-child(6) { transition-delay: 0.30s; }
-.mobile-specialties { text-align: center; }
-.mobile-specialties-toggle {
-  font-family: var(--font-serif);
-  font-size: 2rem;
-  font-weight: 500;
-  color: var(--espresso);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.mobile-arrow { font-size: 1.25rem; transition: transform 0.25s ease; display: inline-block; }
-.mobile-specialties-toggle[aria-expanded="true"] .mobile-arrow { transform: rotate(180deg); }
-.mobile-specialties-list {
-  display: none;
-  flex-direction: column;
-  gap: 0;
-  padding: 0.25rem 0 0.5rem;
-}
-.mobile-specialties-list.open { display: flex; }
-.mobile-specialties-list a {
-  font-size: 1.1rem !important;
-  color: var(--text-muted) !important;
-  padding: 0.3rem 1rem !important;
-  opacity: 1 !important;
-  transform: none !important;
-}
 .mobile-overlay .mobile-cta {
   margin-top: 1.5rem;
   background: var(--terra);
