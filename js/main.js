@@ -44,6 +44,17 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
       });
     });
+
+    // Mobile specialties accordion
+    const specToggle = overlay.querySelector('.mobile-specialties-toggle');
+    const specList = overlay.querySelector('.mobile-specialties-list');
+    if (specToggle && specList) {
+      specToggle.addEventListener('click', () => {
+        const expanded = specToggle.getAttribute('aria-expanded') === 'true';
+        specToggle.setAttribute('aria-expanded', !expanded);
+        specList.classList.toggle('open', !expanded);
+      });
+    }
   }
 
   /* ---- ACTIVE NAV LINK ---- */
