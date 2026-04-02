@@ -8,6 +8,8 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-1NSTRJVGVC');
+    // Track which URL triggered the 404
+    gtag('event', '404_error', { page_path: window.location.pathname + window.location.search });
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
